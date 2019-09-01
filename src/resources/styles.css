@@ -150,6 +150,10 @@ footer .footer_copyright {
 /*====================
         VENUE NFO
 ======================*/
+.center_wrapper_vn{
+  width: 85%;
+  margin:0 auto;
+}
 
 .vn_wrapper {
     display: flex;
@@ -218,6 +222,14 @@ footer .footer_copyright {
         HIGHLIGHTS
 ======================*/
 
+.center_wrapper_highlight {
+  width: 85%;
+  margin:0 auto;
+}
+.highlight_wrapper {
+  width: 90%;
+  margin:0 auto;
+}
 
 .highlight_wrapper h2 {
     text-align: center;
@@ -280,7 +292,10 @@ footer .footer_copyright {
 .pricing_section {
     padding: 70px 0px;
 }
-
+.center_wrapper_pricing {
+  width: 80%;
+  margin:0 auto;
+}
 
 .pricing_section h2 {
     color: #ffffff;
@@ -328,11 +343,13 @@ footer .footer_copyright {
     text-align: center;
     padding: 20px 0px;
     min-height: 70px;
+    overflow: hidden;
 }
 
 .pricing_inner_wrapper .pricing_buttons {
      text-align: center;
 }
+
 
 
 /*====================

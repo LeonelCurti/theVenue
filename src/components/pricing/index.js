@@ -9,7 +9,7 @@ export class Pricing extends Component {
     desc: [
       "Lorem ipsumnghn dolor sit ant, consecteghnghnghghnghntghngur ",
       "Lorem ipsnghghnum dolor sit ameghnght ghconsecthnghnghetur, ",
-      "Lorem ipsughnghm dologhnmghnghnghnr sit amengghnt consectet "
+      "Lorem ipsughnghm dologhnmghnghnghnr sit amengghnt "
     ],
     linkto: ["http://sales/b", "http://sales/m", "http://sales/s"],
     delay: [500, 0, 500]
@@ -24,7 +24,9 @@ export class Pricing extends Component {
               <span>${this.state.prices[i]}</span>
               <span>{this.state.positions[i]}</span>
             </div>
-            <div className="pricing_description">{this.state.desc[i]}</div>
+            <div className="pricing_description">
+              <p>{this.state.desc[i]}</p>
+            </div>
             <div className="pricing_buttons">
               <MyButton
                 text="Purchase"
@@ -41,7 +43,7 @@ export class Pricing extends Component {
   render() {
     return (
       <div className="bck_black">
-        <div className="center_wrapper pricing_section">
+        <div className="center_wrapper_pricing pricing_section">
           <h2>Pricing</h2>
           <div className="pricing_wrapper">{this.showBoxes()}</div>
         </div>

@@ -1,5 +1,6 @@
 import React from "react";
 import "./resources/styles.css";
+import "./resources/mobile.css";
 import { Element } from "react-scroll";
 
 import Header from "./components/header_footer/Header";
@@ -14,7 +15,7 @@ function App() {
   return (
     <div style={{}}>
       <Header />
-
+ 
       <Element name='featured'>
         <Featured />
       </Element>

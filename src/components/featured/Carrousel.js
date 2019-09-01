@@ -21,6 +21,7 @@ const Carrousel = () => {
       }}
     >
       <Slider {...settings}>
+        
         <div>
           <div
             className="carrousel_image"
@@ -30,6 +31,7 @@ const Carrousel = () => {
             }}
           ></div>
         </div>
+
         <div>
           <div
             className="carrousel_image"
@@ -39,6 +41,7 @@ const Carrousel = () => {
             }}
           ></div>
         </div>
+
         <div>
           <div
             className="carrousel_image"
@@ -48,6 +51,7 @@ const Carrousel = () => {
             }}
           ></div>
         </div>
+
       </Slider>
     </div>
   );

@@ -8,7 +8,7 @@ import Zoom from "react-reveal/Zoom";
 const VenueNfo = () => {
   return (
     <div className="bck_black">
-      <div className="center_wrapper">
+      <div className="center_wrapper_vn">
         <div className="vn_wrapper">
 
           <Zoom duration={500}>
