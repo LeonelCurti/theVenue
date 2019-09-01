@@ -1,6 +1,6 @@
 ## The Venue page
 
-http://smiling-son.surge.sh/
+http://wiggly-steam.surge.sh/
 
 Info: Simple react app
 
